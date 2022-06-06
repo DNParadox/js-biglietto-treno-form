@@ -14,10 +14,8 @@ h1, .user-form, input, section {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    width: 50%;
+    width: 70%;
 }
-
-
 
 .buttons {
     display: flex;
