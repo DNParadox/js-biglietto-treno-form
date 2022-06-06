@@ -1,13 +1,22 @@
-h1, .user-form, input, section {
+h2, .user-form, input, section {
     text-align: center;
 }
 
+h2 {
+    color: white;
+}
+
+body {
+    background-color: #b91450;;
+}
 .card {
-    background-color: lightblue;
+    background-color: white;
     display: flex;
     flex-direction: column;
     width: 70%;
     margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px #888888;
 }
 
 .user-form {
@@ -21,4 +30,27 @@ h1, .user-form, input, section {
     display: flex;
     justify-content: center;
     margin: 10px auto;
+}
+label {
+    color: #b91450;
+}
+input, select {
+    border: 1px solid #b91450;
+    margin: 0.5rem;
+}
+
+.card2 {
+    display: none;
+}
+
+.card2.active {
+    display: block
+}
+
+.ticketinfo {
+    background-color: white;
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
 }

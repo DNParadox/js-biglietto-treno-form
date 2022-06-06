@@ -11,23 +11,23 @@
 
 <body>
     <div class="title">
-        <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+        <h2>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
     </div>
     <div class="card">
         <!-- User Form -->
         <div class="user-form">
             <!-- Nome Cognome -->
-            <div id="name" class="user-name">
+            <div class="form-item">
                 <label for="user-name">Nome e Cognome</label><br>
                 <input type="text" id="user-name" name="fname" value="Francesco">
             </div>
             <!-- User KM -->
-            <div id="km" class="user-km">
+            <div class="form-item">
                 <label for="user-km">KM da percorrere</label><br>
                 <input type="number" id="user-km" name="fname" value="100"><br>
             </div>
             <!-- User Age -->
-            <div  class="user-age">
+            <div class="form-item">
                 <label for="user-age">Fascia d'età</label> <br>
                 <select id="user-age">
                     <option value="maggiorenne">Maggiorenne</option>
@@ -37,10 +37,24 @@
             </div>
         </div>
         <!-- Buttons -->
-        <div class="buttons">
+        <div class="form-item buttons">
             <button id="generate">Genera</button>
-            <button>Annulla</button>
+            <button id="annull">Annulla</button>
         </div>
+    </div>
+
+    <div class="title">
+        <h2>IL TUO BIGLIETTO </h2>
+    </div>
+
+    <div id="card2" class="card2">
+      <div class="ticketinfo">
+        <div>Nome passeggero: <br> <span id="ticket-name"> </span></div>
+        <div class="ticketbold">Offerta <br> <span id="ticket-type"></span></div>
+        <div class="ticketbold">Carrozza <br> <span id="carrozza"></span></div>
+        <div class="ticketbold">Codice CP <br> <span id="cpnumber"></span></div>
+        <div class="ticketbold">Prezzo:  <br> <span id="ticket-price"> </span></div>
+      </div>
     </div>
     <script src="js/script.js"></script>
 </body>
