@@ -1,0 +1,26 @@
+h1, .user-form, input {
+    text-align: center;
+}
+
+.card {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.user-form {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 50%;
+}
+
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}
